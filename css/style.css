@@ -774,7 +774,6 @@ header .navbar {
   resize: none;
 }
 #contact-form form button {
-  float: right;
   color: #fff;
   font-size: 16px;
   padding: 10px 40px;
@@ -1322,3 +1321,161 @@ footer p {
 
 
 
+/** Consultar **/
+#consultar {
+    background: url('../img/slide-1.jpg');
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+#consultar:before {
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.73);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+#consultar .block {
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+#consultar .block h1 {
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #b63e3e;
+}
+#consultar .block h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+#consultar .block .btn-learn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 7px;
+    padding: 10px 22px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+#consultar .block .btn-learn:hover {
+    border-color: #b63e3e;
+    color: #b63e3e;
+}
+#consultar .block .buttons {
+    margin-top: 40px;
+}
+#consultar .block .buttons a:first-child {
+    margin-left: 0;
+}
+
+/** Servicios **/
+#servicio {
+    background: url('../img/Tecnico-Taller.jpg');
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+#servicio:before {
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.73);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+#servicio .block {
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+#servicio .block h1 {
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #b63e3e;
+}
+#servicio .block h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+#servicio .block .btn-learn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 7px;
+    padding: 10px 22px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+#servicio .block .btn-learn:hover {
+    border-color: #b63e3e;
+    color: #b63e3e;
+}
+#servicio .block .buttons {
+    margin-top: 40px;
+}
+#servicio .block .buttons a:first-child {
+    margin-left: 0;
+}
+
+/** Cotizar **/
+#cotizar {
+    background: url('../img/cotizacion.jpg');
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+#cotizar:before {
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.73);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+#cotizar .block {
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+#cotizar .block h1 {
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #b63e3e;
+}
+#cotizar .block h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+#cotizar .block .btn-learn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 7px;
+    padding: 10px 22px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+#cotizar .block .btn-learn:hover {
+    border-color: #b63e3e;
+    color: #b63e3e;
+}
+#cotizar .block .buttons {
+    margin-top: 40px;
+}
+#cotizar .block .buttons a:first-child {
+    margin-left: 0;
+}
