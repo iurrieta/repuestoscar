@@ -756,7 +756,8 @@ header .navbar {
   background:#f9f9f9;
 }
 #contact-form form input,
-#contact-form form textarea {
+#contact-form form textarea,
+#contact-form form select {
   padding: 12px 20px 0;
   border-color: #b63e3e;
   border-radius: 5px;
@@ -764,7 +765,8 @@ header .navbar {
   color: #909ba7;
   box-shadow: none;
 }
-#contact-form form input {
+#contact-form form input,
+#contact-form form select {
   margin-bottom: 15px;
   padding: 6px 20px;
 }
