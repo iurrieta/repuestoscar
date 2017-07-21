@@ -850,6 +850,7 @@ header .navbar {
    Service page style
    ===================== */
 #client-logo {
+  margin-top: 100px;
   padding: 0 0 100px;
   text-align: center;
 }
@@ -1481,3 +1482,19 @@ footer p {
 #cotizar .block .buttons a:first-child {
     margin-left: 0;
 }
+
+@media (min-width: 768px) {
+  .menu a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 991px) {
+  .menu a {
+    font-size: 12px;
+  }
+}
+/*@media (min-width: 767px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+}*/
