@@ -225,10 +225,14 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url('../img/img01.jpg');
+  background: url('../img/img01.png');
   background-size: cover;
   padding: 250px 0;
   position: relative;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #banner:before {
   position: absolute;
@@ -308,7 +312,7 @@ header .navbar {
   animation: wiggle 0.5s linear 0s infinite alternate;
 }
 #features {
-  padding: 100px 0 0;
+  padding: 100px 0 100px 0;
 }
 #features .feature-block {
   padding-bottom: 35px;
@@ -1326,10 +1330,14 @@ footer p {
 
 /** Consultar **/
 #consultar {
-    background: url('../img/slide-1.jpg');
+    background: url('../img/banner03.png');
     background-size: cover;
     padding: 250px 0;
     position: relative;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #consultar:before {
     position: absolute;
@@ -1379,10 +1387,14 @@ footer p {
 
 /** Servicios **/
 #servicio {
-    background: url('../img/Tecnico-Taller.jpg');
+    background: url('../img/banner02.jpg');
     background-size: cover;
     padding: 250px 0;
     position: relative;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #servicio:before {
     position: absolute;
@@ -1436,6 +1448,10 @@ footer p {
     background-size: cover;
     padding: 250px 0;
     position: relative;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #cotizar:before {
     position: absolute;
@@ -1493,8 +1509,20 @@ footer p {
     font-size: 12px;
   }
 }
-/*@media (min-width: 767px) {
+
+@media (max-width: 768px) {
+  #contact-form {
+    margin: 0 10px;
+  }
+
   .navbar-brand {
     margin-left: 10px;
   }
-}*/
+
+  /*#banner {
+    background: url('../img/img01.png');
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+  }*/
+}
