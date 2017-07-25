@@ -1503,14 +1503,7 @@ footer p {
   .menu a {
     font-size: 12px;
   }
-}
-@media (min-width: 991px) {
-  .menu a {
-    font-size: 12px;
-  }
-}
 
-@media (max-width: 768px) {
   #contact-form {
     margin: 0 10px;
   }
@@ -1518,11 +1511,22 @@ footer p {
   .navbar-brand {
     margin-left: 10px;
   }
+}
 
-  /*#banner {
-    background: url('../img/img01.png');
-    background-size: cover;
-    padding: 250px 0;
-    position: relative;
-  }*/
+@media (min-width: 991px) {
+  .menu a {
+    font-size: 12px;
+  }
+}
+
+@media (min-height: 768px) {
+  #banner {
+    padding: 350px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  #banner .block h1 {
+    font-size: 40px;
+  }
 }
