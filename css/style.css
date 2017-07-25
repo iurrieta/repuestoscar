@@ -550,7 +550,7 @@ header .navbar {
   overflow: hidden;
 }
 #testimonial .col-md-6 {
-    border: solid #dedede;
+    /*border: solid #dedede;*/
     border-width: 0 1px 1px 0;
     padding-bottom: 42px;
 }
@@ -1529,4 +1529,9 @@ footer p {
   #banner .block h1 {
     font-size: 40px;
   }
+}
+
+.mecanico {
+  width: 600px;
+  margin: auto;
 }
